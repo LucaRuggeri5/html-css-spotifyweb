@@ -67,6 +67,8 @@ CORPO PRINCIPALE
 FOOTER
 ***********************************/
 footer {
+    display: flex;
+    align-items: center;
     width: 100%;
     height: 90px;
     /* DEBUG */
@@ -75,19 +77,29 @@ footer {
 
 .media-player {
     display: flex;
-    justify-content: space-between;
     width: 100%;
-    margin: 0 auto;
 }
 
 .canzone {
-    
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: calc(100% / 3);
+    /* DEBUG */
+    /* border-style: dashed;
+    background-color: green; */
+}
+#img-player {
+    margin-right: 10px;
+    width: 40px;
 }
 
 .player {
-
+    height: 100%;
+    width: calc(100% / 3);
 }
 
 .volume {
-
+    height: 100%;
+    width: calc(100% / 3);
 }
