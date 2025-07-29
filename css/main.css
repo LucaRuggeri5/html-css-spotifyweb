@@ -18,16 +18,25 @@ main {
     display: flex;
 }
 
+img {
+    width: 100%;
+}
 
 /*********************************** 
 BARRA LATERALE
 ***********************************/
 .barra-laterale {
     display: flex;
+    flex-direction: column;
     width: 230px;
     height: calc(100vh - 90px);
-    /* DEBUG */
     background-color: black;
+}
+
+.icona {
+    width: 100%;
+    margin: 20px;
+    margin-right: 20px;
 }
 
 
