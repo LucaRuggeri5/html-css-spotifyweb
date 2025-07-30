@@ -22,8 +22,13 @@ main {
 ul {
     list-style: none;
 }
+
 hr {
     margin: 10px 0px;
+}
+
+#white-text {
+    color: white;
 }
 
 /*********************************** 
@@ -129,6 +134,12 @@ CORPO PRINCIPALE
 }
 .lista-categorie {
     margin: 10px 20px;
+}
+
+.disco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
