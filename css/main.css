@@ -19,24 +19,39 @@ main {
 }
 
 img {
-    width: 100%;
+    
 }
 
 /*********************************** 
 BARRA LATERALE
 ***********************************/
-.barra-laterale {
-    display: flex;
+.container-barra-laterale {
+    /* display: flex;
     flex-direction: column;
+    justify-content: space-between; */
     width: 230px;
     height: calc(100vh - 90px);
     background-color: black;
 }
 
-.icona {
+.container-top-barra {
+    margin: 15px;
+}
+.logo-spotify {
+    width: 130px;
+}
+.navigazione {
+    margin-top: 20px;
+}
+.icona-testo {
+    display: flex;
+    align-items: center;
     width: 100%;
-    margin: 20px;
-    margin-right: 20px;
+    margin-bottom: 5px;
+}
+.icone-barra {
+    width: 25px;
+    margin-right: 10px;
 }
 
 
@@ -100,7 +115,13 @@ footer {
 }
 #img-player {
     margin-right: 10px;
-    width: 40px;
+    width: 45px;
+}
+.brano-nome {
+    margin-right: 30px;
+}
+.icone-brano-nome {
+    font-size: 15px;
 }
 
 .player {
