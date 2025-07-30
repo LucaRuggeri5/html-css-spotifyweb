@@ -22,9 +22,6 @@ main {
 ul {
     list-style: none;
 }
-li {
-    margin-top: 10px;
-}
 hr {
     margin: 10px 0px;
 }
@@ -51,6 +48,9 @@ BARRA LATERALE
 
 .navigazione {
     margin-top: 20px;
+}
+.nuova-playlist {
+    margin-top: 10px;
 }
 a {
     display: flex;
@@ -96,7 +96,7 @@ CORPO PRINCIPALE
     height: calc(100vh - 90px);
     overflow-y: auto;
     width: 100%;
-    background-color: red;
+    background-color: #141922;
 }
 
 .cta {
@@ -106,14 +106,29 @@ CORPO PRINCIPALE
     opacity: 0.5;
     color: white;
     position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#upgrade {
+    color: white;
+    border-color: white;
+    background: none;
+    padding: 10px 40px;
+    border-radius: 50px;
+    margin-right: 200px;
 }
 
 .categorie {
-    margin-top: 100px;
+    margin: 100px 20px 20px 20px;
 }
-
-.musica {
-    
+.ul-categorie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.lista-categorie {
+    margin: 10px 20px;
 }
 
 
