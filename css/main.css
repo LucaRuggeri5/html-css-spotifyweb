@@ -11,24 +11,31 @@ body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 12px;
     background-color: #141922;
-    color: white;
+    color: grey;
+    font-weight: 700;
 }
 
 main {
     display: flex;
 }
 
-img {
-    
+ul {
+    list-style: none;
+}
+li {
+    margin-top: 10px;
+}
+hr {
+    margin: 10px 0px;
 }
 
 /*********************************** 
 BARRA LATERALE
 ***********************************/
 .container-barra-laterale {
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: space-between; */
+    justify-content: space-between;
     width: 230px;
     height: calc(100vh - 90px);
     background-color: black;
@@ -37,21 +44,46 @@ BARRA LATERALE
 .container-top-barra {
     margin: 15px;
 }
+
 .logo-spotify {
     width: 130px;
 }
+
 .navigazione {
     margin-top: 20px;
 }
-.icona-testo {
+a {
     display: flex;
     align-items: center;
     width: 100%;
     margin-bottom: 5px;
+    text-decoration: none;
+    color: grey; 
 }
 .icone-barra {
     width: 25px;
     margin-right: 10px;
+}
+
+.playlist {
+    margin-top: 20px;
+}
+.fa-square-plus {
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+.container-bottom-barra {
+    margin: 15px;
+}
+.fa-circle-down {
+    margin-right: 15px;
+}
+.icona-propic {
+    width: 25px;
+    margin-right: 10px;
+    background-color: grey;
+    border-radius: 20px;
 }
 
 
