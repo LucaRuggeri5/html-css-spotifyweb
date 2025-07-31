@@ -35,6 +35,11 @@ h1 {
     color: white;
 }
 
+img {
+    cursor: pointer;
+    position: relative;
+}
+
 /*********************************** 
 BARRA LATERALE
 ***********************************/
@@ -150,6 +155,8 @@ CORPO PRINCIPALE
 }
 .container-disco {
     width: calc((100% / 6) - (100px / 6));
+    position: relative;
+    cursor: pointer;
 }
 .img-disco {
     max-width: 100%;
@@ -162,6 +169,39 @@ CORPO PRINCIPALE
 #img-tonda {
     border-radius: 50%;
 }
+
+/*********************************** 
+HOVER
+***********************************/
+/* hover barra laterale */
+.no-display-barra:hover {
+    color: white;
+}
+.hover-white:hover {
+    color: white;
+}
+
+/* hover corpo principale */
+.hover-white-green:hover {
+    color: white;
+}
+
+
+
+/* .container-disco:hover .no-hover {
+    display: none;
+}
+.container-disco:hover .hover {
+    display: block;
+}
+
+.no-hover {
+    display: block;
+}
+
+.hover {
+    display: none;
+} */
 
 
 
