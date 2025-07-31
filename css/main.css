@@ -44,6 +44,7 @@ BARRA LATERALE
     justify-content: space-between;
     width: 230px;
     height: calc(100vh - 90px);
+    overflow-y: auto;
     background-color: black;
 }
 
@@ -136,7 +137,7 @@ CORPO PRINCIPALE
 .ul-categorie {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 .lista-categorie {
     margin: 10px 20px;
@@ -159,7 +160,7 @@ CORPO PRINCIPALE
     justify-content: center;
 }
 #img-tonda {
-    border-radius: 100px;
+    border-radius: 50%;
 }
 
 
@@ -172,7 +173,6 @@ footer {
     align-items: center;
     width: 100%;
     height: 90px;
-    /* DEBUG */
     background-color: #222222;
 }
 
@@ -209,4 +209,84 @@ footer {
 .volume {
     height: 100%;
     width: calc(100% / 3);
+}
+
+
+
+/*********************************** 
+RESPONSIVE 880PX
+***********************************/
+@media screen and (max-width: 880px) {
+
+    .container-disco {
+    width: calc((100% / 4) - (60px / 4));
+    }
+}
+
+
+
+
+/*********************************** 
+RESPONSIVE 640PX
+***********************************/
+@media screen and (max-width: 640px) {
+
+    .container-disco {
+    width: calc((100% / 2) - (20px / 2));
+    }
+}
+
+
+
+
+/*********************************** 
+RESPONSIVE 550PX
+***********************************/
+@media screen and (min-width: 551px) {
+    .no-display-big {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .container-disco {
+    width: calc((100% / 2) - (20px / 2));
+    }
+
+    .container-barra-laterale {
+        width: 50px;
+    }
+    .container-top-barra {
+        margin: 10px 10px;
+    }
+    .logo-spotify {
+        width: 30px;
+    }
+    .icone-barra {
+        margin: 0px;
+    }
+
+
+    .container-bottom-barra {
+        margin: 0px;
+    }
+    .fa-circle-down {
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .icona-propic {
+        width: 25px;
+        margin: 0 auto;
+    }
+
+    .no-display-barra {
+        display: none;
+    }
+    #no-display-barra {
+        display: none;
+    }
+
+    .categorie {
+        margin: 100px 0px 20px 0px;
+    }
 }

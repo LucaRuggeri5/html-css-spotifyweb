@@ -21,22 +21,32 @@
         <section class="container-barra-laterale">
             <div class="container-top-barra">
                 <div class="logo-spotify">
-                    <img src="img/logo.svg" alt="Logo Spotify">
+                    <img src="img/logo.svg" alt="Logo Spotify" class="no-display-barra">
+                    <img src="img/logo-small.svg" alt="logo spotify small" class="no-display-big">
                 </div>
                 <div class="navigazione">
                     <nav>
                         <div class="icona-testo">
-                            <a href=""><img src="img/home.svg" alt="Home" class="icone-barra"> Home</a>
+                            <a href="">
+                                <img src="img/home.svg" alt="Home" class="icone-barra"> 
+                                <span class="no-display-barra">Home</span>
+                            </a>
                         </div>
                         <div class="icona-testo">
-                            <a href=""><img src="img/search.svg" alt="Home" class="icone-barra"> Cerca</a>
+                            <a href="">
+                                <img src="img/search.svg" alt="Home" class="icone-barra"> 
+                                <span class="no-display-barra">Cerca</span>
+                            </a>
                         </div>
                         <div class="icona-testo">
-                            <a href=""><img src="img/libreria.svg" alt="Home" class="icone-barra"> La tua libreria</a>
+                            <a href="">
+                                <img src="img/libreria.svg" alt="Home" class="icone-barra"> 
+                                <span class="no-display-barra">La tua libreria</span>
+                            </a>
                         </div>
                     </nav>
                 </div>
-                <div class="playlist">
+                <div class="playlist" id="no-display-barra">
                     <h4>PLAYLIST</h4>
                     <nav>
                         <ul>
@@ -53,10 +63,16 @@
                 </div>
             </div>
             <div class="container-bottom-barra">
-                <a href=""><i class="fa-regular fa-circle-down" style="color: #c0c0c0;"></i> Installa app</a>
-                <hr>
+                <a href="">
+                    <i class="fa-regular fa-circle-down" style="color: #c0c0c0;"></i> 
+                    <span class="no-display-barra">Installa app</span>
+                </a>
+                <hr class="no-display-barra">
                 <div class="icona-testo">
-                    <a href=""><img src="img/profile.svg" alt="Profile" class="icona-propic"> <span>John Doe</span></a>
+                    <a href="">
+                        <img src="img/profile.svg" alt="Profile" class="icona-propic"> 
+                        <span class="no-display-barra">John Doe</span>
+                    </a>
                 </div>
             </div>
         </section>
