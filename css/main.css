@@ -101,9 +101,6 @@ a {
     border-radius: 20px;
 }
 
-
-
-
 /*********************************** 
 CORPO PRINCIPALE
 ***********************************/
@@ -123,6 +120,7 @@ CORPO PRINCIPALE
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    z-index: 2;
 }
 #upgrade {
     color: white;
@@ -185,43 +183,6 @@ CORPO PRINCIPALE
 }
 
 /*********************************** 
-HOVER
-***********************************/
-/* hover barra laterale */
-.no-display-barra:hover {
-    color: white;
-}
-.hover-white:hover {
-    color: white;
-}
-
-/* hover corpo principale */
-button:hover {
-    transform: scale(1.1);
-}
-
-.hover-white-green:hover {
-    color: white;
-    border-bottom: 2px solid;
-    border-color: green;
-}
-
-.img-disco {
-    display: block;
-}
-.play {
-    display: none;
-}
-.img-playlist:hover .img-disco{
-    opacity: 0.5;
-}
-.img-playlist:hover .play{
-    display: block;
-}
-
-
-
-/*********************************** 
 FOOTER
 ***********************************/
 footer {
@@ -270,10 +231,40 @@ footer {
 
 
 
+/*********************************** 
+HOVER
+***********************************/
+/* hover barra laterale */
+.no-display-barra:hover {
+    color: white;
+}
+.hover-white:hover {
+    color: white;
+}
 
+/* hover corpo principale */
+button:hover {
+    transform: scale(1.1);
+}
 
+.hover-white-green:hover {
+    color: white;
+    border-bottom: 2px solid;
+    border-color: green;
+}
 
-
+.img-disco {
+    display: block;
+}
+.play {
+    display: none;
+}
+.img-playlist:hover .img-disco{
+    opacity: 0.5;
+}
+.img-playlist:hover .play{
+    display: block;
+}
 
 /*********************************** 
 RESPONSIVE 880PX
