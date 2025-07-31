@@ -192,7 +192,7 @@ footer {
     height: 90px;
     background-color: #222222;
 }
-
+/* BRANO SULLA SINISTRA */
 .media-player {
     display: flex;
     width: 100%;
@@ -201,11 +201,7 @@ footer {
 .canzone {
     display: flex;
     align-items: center;
-    height: 100%;
     width: calc(100% / 3);
-    /* DEBUG */
-    /* border-style: dashed;
-    background-color: green; */
 }
 #img-player {
     margin-right: 10px;
@@ -218,14 +214,54 @@ footer {
     font-size: 15px;
 }
 
+/* PLAYER CENTRALE */
 .player {
-    height: 100%;
     width: calc(100% / 3);
 }
 
+.container-tasti {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+
+.container-tempo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.container-barra-tempo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    cursor: pointer;
+    position: relative;
+}
+.barra-tempo-bianca {
+    width: 20%;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    z-index: 0;
+    position: relative;
+}
+
+.barra-tempo-grigia {
+    width: 100%;
+    border-style: solid;
+    border-color: grey;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+}
+
+/* BARRA VOLUME */
 .volume {
-    height: 100%;
     width: calc(100% / 3);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 
@@ -263,6 +299,22 @@ button:hover {
     opacity: 0.5;
 }
 .img-playlist:hover .play{
+    display: block;
+}
+
+/* hover barra player */
+.barra-tempo-bianca:hover {
+    border-color: green;
+}
+.punto-bianco {
+    position: absolute;
+    left: 15%;
+    display: none;
+}
+.barra-tempo-bianca {
+    display: block;
+}
+.container-barra-tempo:hover .punto-bianco{
     display: block;
 }
 
