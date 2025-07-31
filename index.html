@@ -79,27 +79,149 @@
                 </nav>
             </div>
             <div class="musica">
-                <h1 id="white-text">Recently played</h1>
+                <!-- PRIMA FILA DI PLAYLIST -->
+                <h1 class="white-text">Recently played</h1>
                 <br>
-                <div class="container-musica">
-                    <div class="disco">
-                        <figure>
-                            <img src="img/metal_lifting.jpg" alt="metal">
-                            <figcaption>
-                                <span id="white-text">Heavy Metal</span>
+                <ul class="lista-dischi">
+                    <li class="container-disco">
+                            <div class="img-disco">
+                                <img class="img-disco" src="img/metal_lifting.jpg" alt="Metal">
+                            </div>
+                            <div class="text-disco">
+                                <div class="text">
+                                    <span class="white-text">Heavy Metal</span>
+                                </div>
                                 <br>
+                                <div class="text">
+                                    Subtitle
+                                </div>
+                            </div>
+                    </li>
+                    <li class="container-disco">
+                            <div class="img-disco">
+                                <img class="img-disco" src="img/stranger.jpeg" alt="Stranger">
+                            </div>
+                            <div class="text-disco">
+                                <div class="text">
+                                    <span class="white-text">Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)</span>
+                                </div>
+                                <br>
+                                <div class="text">
+                                    Kyle Dixon & Micheal Stein
+                                </div>
+                            </div>
+                    </li>
+                    <li class="container-disco">
+                        <div class="img-disco">
+                            <img class="img-disco" src="img/aquietplace.jpeg" alt="Quiet">
+                        </div>
+                        <div class="text-disco">
+                            <div class="text">
+                                <span class="white-text">A quiet place</span>
+                            </div>
+                            <br>
+                            <div class="text">
                                 Subtitle
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="disco">
-                        <img src="img/metal_lifting.jpg" alt="metal">
-                        <br>
-                        <span id="white-text">Heavy Metal</span>
-                        <br>
-                        Subtitle
-                    </div>
-                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="container-disco">
+                        <div class="img-disco">
+                            <img class="img-disco" src="img/split.jpeg" alt="Split">
+                        </div>
+                        <div class="text-disco">
+                            <div class="text">
+                                <span class="white-text">Split</span>
+                            </div>
+                            <br>
+                            <div class="text">
+                                Subtitle
+                            </div>
+                        </div>
+                    </li>
+                    <li class="container-disco">
+                        <div class="img-disco">
+                            <img class="img-disco" src="img/cure.jpeg" alt="cure">
+                        </div>
+                        <div class="text-disco">
+                            <div class="text">
+                                <span class="white-text">A cure for welness</span>
+                            </div>
+                            <br>
+                            <div class="text">
+                                Subtitle
+                            </div>
+                        </div>
+                    </li>
+                    <li class="container-disco">
+                        <div class="img-disco">
+                            <img class="img-disco" src="img/sinister.jpeg" alt="sinister">
+                        </div>
+                        <div class="text-disco">
+                            <div class="text">
+                                <span class="white-text">Sinister</span>
+                            </div>
+                            <br>
+                            <div class="text">
+                                Subtitle
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <!-- SECONDA FILA DI PLAYLIST -->
+                <h1 class="white-text">Creato per John Doe</h1>
+                <br>
+                <h4>Più ascolti, più accurati saranno i suggerimenti</h4>
+                <br>
+                <ul class="lista-dischi">
+                    <li class="container-disco">
+                            <div class="img-disco">
+                                <img class="img-disco" src="img/radar.jpeg" alt="Radar">
+                            </div>
+                            <div class="text-disco">
+                                <div class="text">
+                                    <span class="white-text">Release Radar</span>
+                                </div>
+                            </div>
+                    </li>
+                    <li class="container-disco">
+                            <div class="img-disco">
+                                <img class="img-disco" src="img/mixdaily.jpeg" alt="mixdaily">
+                            </div>
+                            <div class="text-disco">
+                                <div class="text">
+                                    <span class="white-text">Daily Mix 1</span>
+                                </div>
+                            </div>
+                    </li>
+                </ul>
+                <!-- TERZA FILA PLAYLIST -->
+                <h1 class="white-text">Artisti più popolari</h1>
+                <br>
+                <h4>Più ascolti, più accurati saranno i suggerimenti</h4>
+                <br>
+                <ul class="lista-dischi">
+                    <li class="container-disco">
+                            <div class="img-disco">
+                                <img class="img-disco" id="img-tonda" src="img/youg.jpeg" alt="lanadelrey">
+                            </div>
+                            <div class="text-disco">
+                                <div class="text">
+                                    <span class="white-text">Lana Del Rey</span>
+                                </div>
+                            </div>
+                    </li>
+                    <li class="container-disco">
+                            <div class="img-disco">
+                                <img class="img-disco" id="img-tonda" src="img/einaudi.jpeg" alt="einaudi">
+                            </div>
+                            <div class="text-disco">
+                                <div class="text">
+                                    <span class="white-text">Ludovico Einaudi</span>
+                                </div>
+                            </div>
+                    </li>
+                </ul>
             </div>
         </section>
     </main>
@@ -109,7 +231,7 @@
             <div class="canzone">
                     <img src="img/sinister.jpeg" alt="Sinister" id="img-player">
                     <div class="brano-nome">
-                        <span><Strong>Sinister</Strong></span>
+                        <span class="white-text"><Strong>Sinister</Strong></span>
                         <br>
                         <span>Brano Nome</span>
                     </div>
