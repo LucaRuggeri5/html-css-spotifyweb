@@ -270,6 +270,35 @@ footer {
     align-items: center;
     justify-content: flex-end;
 }
+.container-volume {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.container-barra-volume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    cursor: pointer;
+    position: relative;
+}
+.barra-volume-bianca {
+    width: 20%;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    z-index: 0;
+    position: relative;
+}
+.barra-volume-grigia {
+    width: 100%;
+    border-style: solid;
+    border-color: grey;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+}
 
 
 
@@ -325,6 +354,17 @@ button:hover {
     display: block;
 }
 .container-barra-tempo:hover .punto-bianco{
+    display: block;
+}
+
+/* hover barra volume */
+.barra-volume-bianca:hover {
+    border-color: green;
+}
+.barra-volume-bianca {
+    display: block;
+}
+.container-barra-volume:hover .punto-bianco{
     display: block;
 }
 
